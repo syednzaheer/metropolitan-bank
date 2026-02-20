@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Metropolitan Bank — Personal loans, home loans, and digital banking services designed for reliability and trust." />
+    <title>Metropolitan Bank | Simple. Secure. Banking.</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- ===================== HEADER ===================== -->
+    <header class="site-header" id="top" role="banner">
+        <div class="header-inner container">
+
+            <!-- Logo -->
+            <a href="#top" class="logo-link" aria-label="Metropolitan Bank — scroll to top">
+                <div class="logo-lockup">
+                    <!-- Inline SVG: Geometric Pillar Symbol -->
+                    <svg class="logo-symbol" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 56" width="48" height="56" aria-hidden="true" focusable="false">
+                        <!-- Base platform -->
+                        <rect x="4" y="50" width="40" height="4" fill="#FFFFFF"/>
+                        <!-- Left pillar -->
+                        <rect x="6" y="14" width="10" height="36" fill="#FFFFFF"/>
+                        <!-- Right pillar -->
+                        <rect x="32" y="14" width="10" height="36" fill="#FFFFFF"/>
+                        <!-- Center pillar -->
+                        <rect x="19" y="14" width="10" height="36" fill="#FFFFFF"/>
+                        <!-- Gold accent line on center pillar -->
+                        <rect x="23" y="14" width="2" height="36" fill="#C9A24D"/>
+                        <!-- Capital / top beam -->
+                        <rect x="2" y="8" width="44" height="6" fill="#FFFFFF"/>
+                        <!-- Pediment top -->
+                        <rect x="10" y="2" width="28" height="6" fill="#FFFFFF"/>
+                    </svg>
+
+                    <div class="logo-text-group">
+                        <span class="logo-name">Metropolitan Bank</span>
+                        <span class="logo-tagline">Simple. Secure. Banking.</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Mobile menu toggle -->
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primaryNav">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+
+            <!-- Primary Navigation -->
+            <nav class="primary-nav" id="primaryNav" role="navigation" aria-label="Primary navigation">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#digital" class="nav-link">Digital Banking</a></li>
+                    <li><a href="#support" class="nav-link">Support</a></li>
+                    <li><a href="#login" class="nav-link nav-link--login">Login</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- ===================== MAIN CONTENT ===================== -->
+    <main id="main-content">
+
+        <!-- ===================== HERO SECTION ===================== -->
+        <section class="hero-section" id="hero" aria-labelledby="heroHeading">
+            <div class="container hero-inner">
+
+                <!-- Left: Copy -->
+                <div class="hero-copy fade-in-section">
+                    <h1 id="heroHeading" class="hero-headline">Banking built for modern cities.</h1>
+                    <p class="hero-subtext">Personal loans, home loans, and digital banking services designed for reliability and trust.</p>
+                    <a href="#products" class="btn btn--gold" role="button">Apply for a Loan</a>
+                </div>
+
+                <!-- Right: Abstract city-line SVG illustration -->
+                <div class="hero-illustration fade-in-section" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="100%" height="auto" role="img" aria-label="Abstract city skyline illustration">
+                        <!-- Sky background -->
+                        <rect width="480" height="360" fill="#F6F7F9"/>
+
+                        <!-- Ground line -->
+                        <rect x="0" y="310" width="480" height="2" fill="#0B1F33" opacity="0.15"/>
+
+                        <!-- Building 1 — far left, short -->
+                        <rect x="20" y="230" width="40" height="80" fill="none" stroke="#0B1F33" stroke-width="1.5"/>
+                        <rect x="28" y="240" width="8" height="10" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="44" y="240" width="8" height="10" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="28" y="260" width="8" height="10" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="44" y="260" width="8" height="10" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="28" y="280" width="8" height="10" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="44" y="280" width="8" height="10" fill="none" stroke="#0B1F33" stroke-width="1"/>
+
+                        <!-- Building 2 — tall center-left -->
+                        <rect x="80" y="120" width="60" height="190" fill="none" stroke="#0B1F33" stroke-width="1.5"/>
+                        <!-- Antenna -->
+                        <line x1="110" y1="120" x2="110" y2="100" stroke="#0B1F33" stroke-width="1.5"/>
+                        <rect x="106" y="98" width="8" height="4" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <!-- Windows grid -->
+                        <rect x="88" y="132" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="104" y="132" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="120" y="132" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="88" y="154" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="104" y="154" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="120" y="154" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="88" y="176" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="104" y="176" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="120" y="176" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="88" y="198" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="104" y="198" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="120" y="198" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="88" y="220" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="104" y="220" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="120" y="220" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="88" y="242" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="104" y="242" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="120" y="242" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <!-- Gold accent stripe -->
+                        <rect x="108" y="120" width="4" height="190" fill="#C9A24D" opacity="0.5"/>
+
+                        <!-- Building 3 — medium, center -->
+                        <rect x="160" y="170" width="50" height="140" fill="none" stroke="#0B1F33" stroke-width="1.5"/>
+                        <rect x="168" y="180" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="184" y="180" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="168" y="202" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="184" y="202" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="168" y="224" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="184" y="224" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="168" y="246" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="184" y="246" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="168" y="268" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="184" y="268" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+
+                        <!-- Building 4 — tallest, center-right (bank building) -->
+                        <rect x="230" y="80" width="80" height="230" fill="none" stroke="#0B1F33" stroke-width="2"/>
+                        <!-- Stepped top -->
+                        <rect x="238" y="68" width="64" height="12" fill="none" stroke="#0B1F33" stroke-width="1.5"/>
+                        <rect x="248" y="58" width="44" height="10" fill="none" stroke="#0B1F33" stroke-width="1.5"/>
+                        <!-- Columns at base -->
+                        <line x1="248" y1="260" x2="248" y2="310" stroke="#0B1F33" stroke-width="1.5"/>
+                        <line x1="262" y1="260" x2="262" y2="310" stroke="#0B1F33" stroke-width="1.5"/>
+                        <line x1="276" y1="260" x2="276" y2="310" stroke="#0B1F33" stroke-width="1.5"/>
+                        <line x1="290" y1="260" x2="290" y2="310" stroke="#0B1F33" stroke-width="1.5"/>
+                        <line x1="304" y1="260" x2="304" y2="310" stroke="#0B1F33" stroke-width="1.5"/>
+                        <!-- Entablature -->
+                        <rect x="230" y="252" width="80" height="8" fill="none" stroke="#0B1F33" stroke-width="1.5"/>
+                        <!-- Windows -->
+                        <rect x="240" y="90" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="260" y="90" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="280" y="90" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="300" y="90" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="240" y="116" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="260" y="116" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="280" y="116" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="300" y="116" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="240" y="142" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="260" y="142" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="280" y="142" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="300" y="142" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="240" y="168" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="260" y="168" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="280" y="168" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="300" y="168" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="240" y="194" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="260" y="194" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="280" y="194" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="300" y="194" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="240" y="220" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="260" y="220" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="280" y="220" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="300" y="220" width="14" height="16" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <!-- Gold accent -->
+                        <rect x="268" y="80" width="4" height="172" fill="#C9A24D" opacity="0.4"/>
+
+                        <!-- Building 5 — right side medium -->
+                        <rect x="330" y="150" width="55" height="160" fill="none" stroke="#0B1F33" stroke-width="1.5"/>
+                        <rect x="340" y="162" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="356" y="162" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="372" y="162" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="340" y="184" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="356" y="184" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="372" y="184" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="340" y="206" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="356" y="206" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="372" y="206" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="340" y="228" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="356" y="228" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="372" y="228" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="340" y="250" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="356" y="250" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="372" y="250" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="340" y="272" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="356" y="272" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="372" y="272" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+
+                        <!-- Building 6 — far right, short -->
+                        <rect x="405" y="210" width="50" height="100" fill="none" stroke="#0B1F33" stroke-width="1.5"/>
+                        <rect x="413" y="222" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="431" y="222" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="413" y="244" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="431" y="244" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="413" y="266" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="431" y="266" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="413" y="288" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+                        <rect x="431" y="288" width="10" height="12" fill="none" stroke="#0B1F33" stroke-width="1"/>
+
+                        <!-- Road / street markings -->
+                        <rect x="0" y="312" width="480" height="48" fill="none" stroke="#0B1F33" stroke-width="0" opacity="0"/>
+                        <line x1="60" y1="330" x2="100" y2="330" stroke="#0B1F33" stroke-width="1" opacity="0.2"/>
+                        <line x1="200" y1="330" x2="240" y2="330" stroke="#0B1F33" stroke-width="1" opacity="0.2"/>
+                        <line x1="340" y1="330" x2="380" y2="330" stroke="#0B1F33" stroke-width="1" opacity="0.2"/>
+                    </svg>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===================== TRUST COUNTERS ===================== -->
+        <section class="counters-section" id="counters" aria-label="Key statistics">
+            <div class="container">
+                <div class="counters-grid">
+
+                    <div class="counter-item fade-in-section">
+                        <span class="counter-value" data-target="450000" data-suffix="+">0</span>
+                        <span class="counter-label">Customers Served</span>
+                    </div>
+
+                    <div class="counter-item fade-in-section">
+                        <span class="counter-value" data-target="120" data-suffix="+">0</span>
+                        <span class="counter-label">Branches Nationwide</span>
+                    </div>
+
+                    <div class="counter-item fade-in-section">
+                        <span class="counter-value" data-target="18000" data-suffix=" Cr+">0</span>
+                        <span class="counter-label">Assets Under Management</span>
+                    </div>
+
+                    <div class="counter-item fade-in-section">
+                        <span class="counter-value" data-target="99.1" data-suffix="%" data-decimal="1">0</span>
+                        <span class="counter-label">Uptime Reliability</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== PRODUCTS SECTION ===================== -->
+        <section class="products-section" id="products" aria-labelledby="productsHeading">
+            <div class="container">
+                <div class="section-header fade-in-section">
+                    <h2 id="productsHeading" class="section-title">Our Products</h2>
+                    <p class="section-subtitle">Financial solutions built around your needs.</p>
+                </div>
+
+                <div class="products-grid">
+
+                    <!-- Home Loan -->
+                    <article class="product-card fade-in-section" aria-label="Home Loan">
+                        <div class="product-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#0B1F33" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter">
+                                <polyline points="6,22 24,6 42,22"/>
+                                <rect x="10" y="22" width="28" height="20"/>
+                                <rect x="18" y="30" width="12" height="12"/>
+                            </svg>
+                        </div>
+                        <h3 class="product-name">Home Loan</h3>
+                        <p class="product-desc">Competitive interest rates and flexible tenures to help you own your home.</p>
+                        <a href="#" class="product-link" aria-label="Learn more about Home Loan">Learn More</a>
+                    </article>
+
+                    <!-- Personal Loan -->
+                    <article class="product-card fade-in-section" aria-label="Personal Loan">
+                        <div class="product-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#0B1F33" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter">
+                                <rect x="6" y="12" width="36" height="26" rx="0"/>
+                                <line x1="6" y1="20" x2="42" y2="20"/>
+                                <line x1="14" y1="28" x2="20" y2="28"/>
+                                <line x1="14" y1="32" x2="24" y2="32"/>
+                            </svg>
+                        </div>
+                        <h3 class="product-name">Personal Loan</h3>
+                        <p class="product-desc">Quick disbursals with minimal documentation for your personal financial needs.</p>
+                        <a href="#" class="product-link" aria-label="Learn more about Personal Loan">Learn More</a>
+                    </article>
+
+                    <!-- Vehicle Loan -->
+                    <article class="product-card fade-in-section" aria-label="Vehicle Loan">
+                        <div class="product-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#0B1F33" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter">
+                                <rect x="4" y="20" width="40" height="14"/>
+                                <polyline points="8,20 14,10 34,10 40,20"/>
+                                <circle cx="14" cy="36" r="4"/>
+                                <circle cx="34" cy="36" r="4"/>
+                                <line x1="18" y1="36" x2="30" y2="36"/>
+                            </svg>
+                        </div>
+                        <h3 class="product-name">Vehicle Loan</h3>
+                        <p class="product-desc">Finance your two-wheeler or four-wheeler with straightforward repayment plans.</p>
+                        <a href="#" class="product-link" aria-label="Learn more about Vehicle Loan">Learn More</a>
+                    </article>
+
+                    <!-- Fixed Deposits -->
+                    <article class="product-card fade-in-section" aria-label="Fixed Deposits">
+                        <div class="product-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#0B1F33" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter">
+                                <rect x="8" y="8" width="32" height="32"/>
+                                <line x1="16" y1="24" x2="32" y2="24"/>
+                                <line x1="24" y1="16" x2="24" y2="32"/>
+                                <rect x="12" y="12" width="8" height="8"/>
+                            </svg>
+                        </div>
+                        <h3 class="product-name">Fixed Deposits</h3>
+                        <p class="product-desc">Guaranteed returns with assured interest rates across flexible deposit periods.</p>
+                        <a href="#" class="product-link" aria-label="Learn more about Fixed Deposits">Learn More</a>
+                    </article>
+
+                    <!-- Digital Savings -->
+                    <article class="product-card fade-in-section" aria-label="Digital Savings">
+                        <div class="product-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#0B1F33" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter">
+                                <rect x="8" y="14" width="32" height="22"/>
+                                <rect x="14" y="36" width="20" height="4"/>
+                                <line x1="18" y1="22" x2="30" y2="22"/>
+                                <line x1="18" y1="28" x2="26" y2="28"/>
+                                <rect x="20" y="8" width="8" height="6"/>
+                            </svg>
+                        </div>
+                        <h3 class="product-name">Digital Savings</h3>
+                        <p class="product-desc">Open and manage your savings account entirely online, with zero branch visits.</p>
+                        <a href="#" class="product-link" aria-label="Learn more about Digital Savings">Learn More</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== WHY METROPOLITAN BANK ===================== -->
+        <section class="why-section" id="about" aria-labelledby="whyHeading">
+            <div class="container">
+                <div class="section-header fade-in-section">
+                    <h2 id="whyHeading" class="section-title">Why Metropolitan Bank</h2>
+                    <p class="section-subtitle">Principles that have guided us for decades.</p>
+                </div>
+
+                <div class="why-grid">
+
+                    <div class="why-item fade-in-section">
+                        <div class="why-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="#C9A24D" stroke-width="1.8" stroke-linecap="square">
+                                <rect x="10" y="6" width="28" height="36"/>
+                                <polyline points="10,6 24,2 38,6"/>
+                                <line x1="18" y1="20" x2="30" y2="20"/>
+                                <line x1="18" y1="26" x2="30" y2="26"/>
+                                <line x1="18" y1="32" x2="26" y2="32"/>
+                            </svg>
+                        </div>
+                        <h3 class="why-title">Secure by Design</h3>
+                        <p class="why-desc">Every transaction is protected by multi-layer encryption and real-time fraud monitoring. Your funds and data are safeguarded around the clock by our dedicated security operations team.</p>
+                    </div>
+
+                    <div class="why-item fade-in-section">
+                        <div class="why-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="#C9A24D" stroke-width="1.8" stroke-linecap="square">
+                                <rect x="6" y="14" width="36" height="26"/>
+                                <line x1="6" y1="22" x2="42" y2="22"/>
+                                <line x1="14" y1="30" x2="22" y2="30"/>
+                                <line x1="14" y1="34" x2="26" y2="34"/>
+                                <rect x="16" y="6" width="16" height="8"/>
+                            </svg>
+                        </div>
+                        <h3 class="why-title">Transparent Services</h3>
+                        <p class="why-desc">No hidden charges, no fine-print surprises. Our fee schedules, interest rates, and terms are clearly disclosed before you commit to any product or service with us.</p>
+                    </div>
+
+                    <div class="why-item fade-in-section">
+                        <div class="why-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="#C9A24D" stroke-width="1.8" stroke-linecap="square">
+                                <circle cx="24" cy="16" r="8"/>
+                                <path d="M8 42 C8 32 40 32 40 42" stroke="#C9A24D" stroke-width="1.8" fill="none"/>
+                                <line x1="30" y1="28" x2="38" y2="20"/>
+                                <line x1="34" y1="24" x2="42" y2="24"/>
+                            </svg>
+                        </div>
+                        <h3 class="why-title">Human Support Always</h3>
+                        <p class="why-desc">Reach a trained banking professional at any time via phone, branch, or secure messaging. We believe every customer deserves a real conversation, not just an automated response.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== TESTIMONIALS ===================== -->
+        <section class="testimonials-section" id="testimonials" aria-labelledby="testimonialsHeading">
+            <div class="container">
+                <div class="section-header fade-in-section">
+                    <h2 id="testimonialsHeading" class="section-title">What Our Customers Say</h2>
+                </div>
+
+                <div class="testimonials-slider fade-in-section" role="region" aria-label="Customer testimonials" aria-live="polite">
+                    <div class="testimonial-track" id="testimonialTrack">
+
+                        <blockquote class="testimonial-item active" aria-hidden="false">
+                            <p class="testimonial-text">"Metropolitan Bank processed my home loan application within four working days. The relationship manager kept me informed at every step. I have never experienced such professional service from any bank before."</p>
+                            <footer class="testimonial-author">
+                                <strong class="author-name">Rajesh Nair</strong>
+                                <span class="author-city">Mumbai</span>
+                            </footer>
+                        </blockquote>
+
+                        <blockquote class="testimonial-item" aria-hidden="true">
+                            <p class="testimonial-text">"I switched my salary account to Metropolitan Bank six months ago. The digital banking portal is clean, reliable, and has never gone down during a transaction. The fixed deposit rates are also very competitive."</p>
+                            <footer class="testimonial-author">
+                                <strong class="author-name">Priya Venkataraman</strong>
+                                <span class="author-city">Bengaluru</span>
+                            </footer>
+                        </blockquote>
+
+                        <blockquote class="testimonial-item" aria-hidden="true">
+                            <p class="testimonial-text">"When I had a dispute on a transaction, the support team resolved it within 48 hours without me having to visit a branch. That kind of responsiveness is rare and genuinely appreciated."</p>
+                            <footer class="testimonial-author">
+                                <strong class="author-name">Ananya Sharma</strong>
+                                <span class="author-city">New Delhi</span>
+                            </footer>
+                        </blockquote>
+
+                        <blockquote class="testimonial-item" aria-hidden="true">
+                            <p class="testimonial-text">"The vehicle loan process was straightforward and transparent. Every charge was explained upfront. I financed my car without any confusion or unexpected deductions. Highly recommended."</p>
+                            <footer class="testimonial-author">
+                                <strong class="author-name">Karthik Subramaniam</strong>
+                                <span class="author-city">Chennai</span>
+                            </footer>
+                        </blockquote>
+
+                    </div>
+
+                    <!-- Testimonial navigation dots -->
+                    <div class="testimonial-dots" role="tablist" aria-label="Testimonial navigation">
+                        <button class="dot active" role="tab" aria-selected="true" aria-label="Testimonial 1" data-index="0"></button>
+                        <button class="dot" role="tab" aria-selected="false" aria-label="Testimonial 2" data-index="1"></button>
+                        <button class="dot" role="tab" aria-selected="false" aria-label="Testimonial 3" data-index="2"></button>
+                        <button class="dot" role="tab" aria-selected="false" aria-label="Testimonial 4" data-index="3"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== DIGITAL BANKING CTA ===================== -->
+        <section class="digital-section" id="digital" aria-labelledby="digitalHeading">
+            <div class="container">
+                <div class="digital-inner fade-in-section">
+                    <h2 id="digitalHeading" class="digital-title">Bank from anywhere.</h2>
+                    <p class="digital-desc">Our secure digital banking platform gives you full control of your accounts, transfers, and statements — 24 hours a day, 7 days a week.</p>
+                    <a href="#" class="btn btn--outline-gold" role="button">Explore Digital Banking</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer" id="support" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+
+                <!-- Left: About links -->
+                <div class="footer-col">
+                    <h4 class="footer-col-title">Metropolitan Bank</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">About Metropolitan Bank</a></li>
+                        <li><a href="#" class="footer-link">Careers</a></li>
+                        <li><a href="#" class="footer-link">Investor Relations</a></li>
+                    </ul>
+                </div>
+
+                <!-- Center: Support -->
+                <div class="footer-col footer-col--center">
+                    <h4 class="footer-col-title">Customer Support</h4>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="tel:18002479000" class="footer-link">
+                                <span class="footer-label">Customer Care:</span> 1800-247-9000
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:support@metropolitanbank.in" class="footer-link">
+                                <span class="footer-label">Email:</span> support@metropolitanbank.in
+                            </a>
+                        </li>
+                        <li><a href="#" class="footer-link">Branch Locator</a></li>
+                        <li><a href="#" class="footer-link">Complaints</a></li>
+                    </ul>
+                </div>
+
+                <!-- Right: Social -->
+                <div class="footer-col footer-col--right">
+                    <h4 class="footer-col-title">Follow Us</h4>
+                    <ul class="footer-links footer-social">
+                        <li>
+                            <a href="#" class="footer-link" aria-label="Metropolitan Bank on Facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                                Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link" aria-label="Metropolitan Bank on Twitter">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+                                Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link" aria-label="Metropolitan Bank on LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                                LinkedIn
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link" aria-label="Metropolitan Bank on Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+                                Instagram
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Footer bottom bar -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-logo">
+                    <!-- Monochrome navy version of logo for footer -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 56" width="28" height="32" aria-hidden="true" focusable="false">
+                        <rect x="4" y="50" width="40" height="4" fill="rgba(255,255,255,0.4)"/>
+                        <rect x="6" y="14" width="10" height="36" fill="rgba(255,255,255,0.4)"/>
+                        <rect x="32" y="14" width="10" height="36" fill="rgba(255,255,255,0.4)"/>
+                        <rect x="19" y="14" width="10" height="36" fill="rgba(255,255,255,0.4)"/>
+                        <rect x="23" y="14" width="2" height="36" fill="rgba(255,255,255,0.6)"/>
+                        <rect x="2" y="8" width="44" height="6" fill="rgba(255,255,255,0.4)"/>
+                        <rect x="10" y="2" width="28" height="6" fill="rgba(255,255,255,0.4)"/>
+                    </svg>
+                    <span>Metropolitan Bank</span>
+                </div>
+                <p class="footer-disclaimer">Metropolitan Bank is a simulated platform created for academic demonstration.</p>
+                <p class="footer-copyright">&copy; 2026 Metropolitan Bank. All rights reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
